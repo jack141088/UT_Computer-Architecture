@@ -1,7 +1,7 @@
 # UT_Computer-Architecture
 Computer Architecture Lab
 
-## Detail
+## Introduction
 
 ### Lab1
 The purpose of this lab is to reinforce the concepts of assembly language and assemblers. In this lab assignment, you will write an LC-3b Assembler, whose job will be to translate assembly language source code into the machine language (ISA) of the LC-3b. You will also write a program to solve a problem in the LC-3b Assembly Language.
