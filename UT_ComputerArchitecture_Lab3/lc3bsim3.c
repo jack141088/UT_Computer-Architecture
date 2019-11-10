@@ -718,7 +718,7 @@ void eval_bus_drivers() {
     int IR5 = (IR & 0x00000020) >> 5;
     int IR4 = (IR & 0x00000010) >> 4;
     int SR1 = SR1MUX == 0 ? ((IR & 0x00000E00) >> 9) : ((IR & 0x000001C0) >> 6);
-    int SR2 = (IR & 0x00000003);
+    int SR2 = (IR & 0x00000007);
     int A = REGS[SR1];
     int B = IR5 == 0 ? REGS[SR2] : 
         (((IR & 0x00000010) >> 4) == 0 ? (IR & 0x0000001F) : (IR | 0xFFFFFFE0));
