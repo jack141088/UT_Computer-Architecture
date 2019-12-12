@@ -11,3 +11,18 @@ A file entitled isaprogram holding an assembled LC-3b program.
 The simulator will execute the input LC-3b program using the control store and the code you write inside the simulator functions to direct the simulation of the datapath and memory components of the LC-3b.
 
 ## Usage
+
+### generate lab6 example binary code
+```
+./gen_asm.sh
+```
+
+### run lab6 example
+```
+./run.sh example[number]
+```
+
+### run test asm
+```
+./test.sh [filename]
+```
