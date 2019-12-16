@@ -1,4 +1,4 @@
-# UT_Computer_Architecture
+# UT EE382N Computer Architecture
 Computer Architecture Lab
 
 
